@@ -1,5 +1,8 @@
 'use strict'
+import MainConponents from "./components/MainComponents.js"
 import HelloWorld from "./components/HelloWorld.js"
+import Input from "./components/InputArea.js"
+
 
 window.addEventListener('load', e => {
     document.getElementById('hellobtn').addEventListener('click', e => {
