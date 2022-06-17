@@ -1,6 +1,16 @@
-export default class Container {
+export default class Container extends HTMLElement {
     constructor(){
-        // super()
+        super()
+        console.log(this.innerHTML); //ネストした中身が見れる
+    }
+    connectedCallback() {
+        console.log(this.innerHTML);
+        // return( // できない
+        //     <>
+        //     Hello
+        //     </>
+        // )
+        this.innerHTML = `Hello` // できる
     }
 }
 
