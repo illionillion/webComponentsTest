@@ -6,8 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Components Test</title>
     <script type="module" src="./src/main.js"></script>
+    <style>
+        container-area{
+            background-color: aqua;
+        }
+    </style>
 </head>
 <body>
     <main-components></main-components>
+    <!-- タグを作ってその中にネストさせることは可能 -->
+    <container-area>test</container-area>
 </body>
 </html>

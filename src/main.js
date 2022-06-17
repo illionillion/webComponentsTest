@@ -2,6 +2,7 @@
 import MainConponents from "./components/MainComponents.js"
 import HelloWorld from "./components/HelloWorld.js"
 import Input from "./components/InputArea.js"
+import Container from "./components/container.js"
 
 
 window.addEventListener('load', e => {
